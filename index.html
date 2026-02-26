@@ -3,18 +3,69 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>. مركز شباب المحلاوي</title>
+  <meta name="description" contant=" مركز شباب  قرية المحلاوي - الجمالية-دقهلية ">
+  <meta name="keywords" content="نادي المحلاوي,مركز شباب المحلاوي ,مركز شباب قرية المحلاوي ,قرية المحلاوي,lv,شباب قريه المحلاوي">
+ <link rel="stylesheet" href="kh.css">
+ <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDOxy11xiUFlg3_kc0zveL52QDD1O1ISb1iA&s">
+  
+ <title>. مركز شباب المحلاوي</title>
 </head>
-<body id="hm"> 
+
+<script>
+  function searchText() {
+    let input = document.querySelector("input[name='search']").value.trim();
+    if (!input) return;
+  
+    removeHighlights();
+  
+    let walker = document.createTreeWalker(
+      document.body,
+      NodeFilter.SHOW_TEXT,
+      null,
+      false
+    );
+  
+    let node;
+    while (node = walker.nextNode()) {
+      let index = node.nodeValue.toLowerCase().indexOf(input.toLowerCase());
+      if (index !== -1) {
+        let range = document.createRange();
+        range.setStart(node, index);
+        range.setEnd(node, index + input.length);
+  
+        let mark = document.createElement("mark");
+        mark.className = "highlight";
+        range.surroundContents(mark);
+  
+        mark.scrollIntoView({ behavior: "smooth", block: "center" });
+  
+        setTimeout(removeHighlights, 3000);
+        return;
+      }
+    }
+  
+    alert("الكلمة مش موجودة ❌");
+  }
+  
+  function removeHighlights() {
+    document.querySelectorAll("mark.highlight").forEach(el => {
+      el.replaceWith(el.textContent);
+    });
+  }
+  </script>
+
+
+</body>
+<body id="hm" > 
 
   <header>
 <div class="leftheader">
-<div class="logo"><img src="" alt="logo"></div>
-<h1>  مركز شباب المحلاوي</h1>
+<div class="logo"><img src="http://www2.mans.edu.eg/Dakahlia/sh.gif" alt="logo" height="15%"width="15%" ></div>
+ <h1>  مركز شباب المحلاوي</h1>
 </div>
  
 <div class="centerheader">
-<center><form>
+<center><form onsubmit="event.preventDefault(); searchText();">
 <input type="text" name="search" placeholder="search">
 <button name="search">
   <!--icon src-->
@@ -30,15 +81,107 @@
 <a href="https://jhgtgt800-cpu.github.io/FFS/" target="_blank">ABOUT</a>
 <a href="https://jhgtgt800-cpu.github.io/FF/" target="_blank">FOUNDERS</a>
 </div>
+
+
+
+
+
 </header>
 
-  <section>
+<hr>
+<br><br>
 
+  <section>
+ <div class="c"><h1 dir="rtl"> .. لمحة عن تاريخ المركز .. </h1></div>
+
+<div class="co"><p> 
+
+<p>
+
+   مركز شباب المحلاوي – الجمالية، الدقهلية
+
+  يُعد مركز شباب المحلاوي أحد الكيانات الشبابية المهمة في قرية المحلاوي التابعة لمركز الجمالية بمحافظة الدقهلية. وقد أُنشئ المركز عام 1989 ليكون منبرًا يجمع شباب القرية ويوفر لهم بيئة مناسبة لممارسة الأنشطة الرياضية والثقافية والاجتماعية.
+  
+</p>
+
+
+
+   <h2>النشأة والتأسيس
+  </h2>
+
+
+
+   <p>
+  تأسس المركز في أواخر ثمانينيات القرن الماضي استجابةً لحاجة شباب القرية إلى مكان منظم وآمن يقضون فيه أوقات فراغهم بصورة مفيدة. ومنذ إنشائه عام 1989، لعب دورًا بارزًا في دعم الطاقات الشبابية وتنمية المواهب في مختلف المجالات.
+  </p>
+  <h3> الأنشطة الرياضية
+  </h3>
+<p>
+  يهتم المركز بالأنشطة الرياضية مثل كرة القدم، وكرة الطائرة، وتنس الطاولة، وغيرها من الألعاب التي تشجع على اللياقة البدنية وروح الفريق. ويشارك شباب المركز في بطولات محلية على مستوى المركز والمحافظة، مما يعزز روح المنافسة والانتماء.
+</p>
+   
+<h4>الأنشطة الثقافية والاجتماعية
+</h4>
+
+<p>
+  لا يقتصر دور مركز الشباب على الرياضة فقط، بل ينظم أيضًا ندوات ثقافية، ومسابقات دينية، وأنشطة ترفيهية في المناسبات المختلفة. كما يساهم في تنظيم احتفالات وطنية ودينية، ويعمل على تعزيز قيم التعاون والعمل التطوعي بين أبناء القرية.
+ 
+</p>
+  <h5> دوره في خدمة المجتمع
+  </h5>
+  <p>
+  يُعد المركز نقطة تجمع رئيسية لأهالي المحلاوية، حيث يشارك في المبادرات المجتمعية وحملات التوعية، ويسهم في تنمية روح المشاركة بين الشباب. كما يساعد في اكتشاف المواهب الشابة وصقلها، سواء في المجال الرياضي أو الثقافي.
+</p>
+  <h6>
+الخلاصة
+  </h6>
+<div class="aa">
+  <p >
+  منذ تأسيسه عام 1989، يواصل مركز شباب المحلاوية أداء رسالته في رعاية الشباب وتنمية قدراتهم، ليظل منارة اجتماعية ورياضية مهمة داخل القرية، ومكانًا يعكس روح الانتماء والعمل الجماعي بين أبنائها.
+  
+  </p>
+</div>
+
+</p>
+
+<br>
+<hr>
+
+
+
+</div>
 </section>
 
-<foater>
+<footer>
 
-</foater>
+  <div class= "foot">
+<p>
+  رقم الهاتف  : 01207090931
+</p>
+
+<p class="k13">
+
+جميع الحقوق تابعة لوزارة الشباب والرياضة 
+
+</p>
+<div class="leftfoot">
+<p>
+
+تابعنا علي فيسبوك
+<a class="lfa" href="https://www.facebook.com/people/%D8%A7%D9%84%D8%B5%D9%81%D8%AD%D8%A9-%D8%A7%D9%84%D8%B1%D8%B3%D9%85%D9%8A%D8%A9-%D9%84%D9%85%D8%B1%D9%83%D8%B2-%D8%B4%D8%A8%D8%A7%D8%A8-%D8%A7%D9%84%D9%85%D8%AD%D9%84%D8%A7%D9%88%D9%8A-%D8%A5%D8%AF%D8%A7%D8%B1%D8%A9-%D8%B4%D8%A8%D8%A7%D8%A8-%D8%A7%D9%84%D8%AC%D9%85%D8%A7%D9%84%D9%8A%D8%A9/100064584316338/"> facebook</a>
+<i href=""></i>
+</div>
+
+</p>
+
+  </div>
+
+
+
+</footer>
+
+
+
 
 </body>
 </html>

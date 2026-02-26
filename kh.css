@@ -1,0 +1,167 @@
+h1,h2,h3,h4,h5,h6{
+
+font-family: unset;
+display: flex;
+
+direction: rtl;
+font-size: 40px;
+color:#1D3557
+
+
+}
+
+
+p{
+
+font-family: 'Times New Roman', Times, serif;
+font-size: 25px;
+padding:25px;
+;
+direction: rtl;
+color: #344E41;
+}
+#hm{
+
+    background: linear-gradient(135deg, #A8D5BA, rgb(224, 250, 237));
+
+}
+
+/* Reset بسيط */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Cairo", sans-serif;
+  }
+  
+  /* الهيدر */
+  header{
+    background: linear-gradient(135deg, #A8D5BA, #74C69D);
+    padding: 25px 40px;
+
+  }
+  
+  /* اسم المركز */
+  .leftheader h1{
+    text-align:center ;
+    font-size: 38px;
+    color: #1B4332;
+    margin-bottom: 20px;
+    font-weight: bold;
+    right:300px ;
+    left: 50px;
+    margin-right: 458px;
+     margin-top: -40px;
+}
+
+  
+  /* السيرش في النص */
+  .centerheader{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  
+  .centerheader form{
+    position: relative;
+    width: 40%;
+  }
+  
+  .centerheader input{
+    width: 100%;
+    padding: 14px 20px;
+    border-radius: 40px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    transition: 0.3s;
+  }
+  
+  .centerheader input:focus{
+    transform: scale(1.03);
+  }
+  
+  /* زرار السيرش */
+  .centerheader button{
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    bottom: 5px;
+    border: none;
+    padding: 0 4px;
+    border-radius: 40px;
+    background: #40916C;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .centerheader button:hover{
+    background: #2D6A4F;
+  }
+  
+  /* اللينكات على الشمال */
+  .rightheader{
+    position: absolute;
+    left: 900px;
+    top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: center;
+    display: inline-block;
+padding: 20px;
+
+
+    margin-right: 25px;
+  
+}
+
+  
+  .rightheader a{
+    text-decoration: none;
+    color: #1B4332;
+    font-weight: 600;
+    transition: 0.3s;
+padding: 15PX;  
+display: flex;
+display: inline-block;
+
+}
+
+  
+  .rightheader a:hover{
+    color: #ffffff;
+    transform: translateX(5px);
+  }
+  .highlight{
+    background: rgb(228, 255, 166);  /* لون التحديد */
+    padding: 2px;
+    border-radius: 3px;
+  }
+ .foot{
+
+
+    background-color: rgb(99, 206, 152);
+margin-top: -20px;
+ }
+ .leftfoot{
+
+    margin-right: 800px;
+    margin-top: -120px;
+
+ }
+ .leftfoot .lfa{
+
+color: rgb(6, 100, 53);
+
+ }
+ .leftfoot .lfa:hover{
+color: #ffffff;
+
+ }
+ .co{
+padding: 20px;
+
+ }
