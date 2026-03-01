@@ -1,187 +1,134 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" contant=" مركز شباب  قرية المحلاوي - الجمالية-دقهلية ">
-  <meta name="keywords" content="نادي المحلاوي,مركز شباب المحلاوي ,مركز شباب قرية المحلاوي ,قرية المحلاوي,lv,شباب قريه المحلاوي">
- <link rel="stylesheet" href="kh.css">
- <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDOxy11xiUFlg3_kc0zveL52QDD1O1ISb1iA&s">
-  
- <title>. مركز شباب المحلاوي</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LIFE'S COMPANY
+    </title>
+    <link rel="stylesheet" href="k.css">
+    <link rel="icon" href="file:///C:/Users/Moana/Desktop/learn/New%20folder/kj.png.avif">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
-<script>
-  function searchText() {
-    let input = document.querySelector("input[name='search']").value.trim();
-    if (!input) return;
-  
-    removeHighlights();
-  
-    let walker = document.createTreeWalker(
-      document.body,
-      NodeFilter.SHOW_TEXT,
-      null,
-      false
-    );
-  
-    let node;
-    while (node = walker.nextNode()) {
-      let index = node.nodeValue.toLowerCase().indexOf(input.toLowerCase());
-      if (index !== -1) {
-        let range = document.createRange();
-        range.setStart(node, index);
-        range.setEnd(node, index + input.length);
-  
-        let mark = document.createElement("mark");
-        mark.className = "highlight";
-        range.surroundContents(mark);
-  
-        mark.scrollIntoView({ behavior: "smooth", block: "center" });
-  
-        setTimeout(removeHighlights, 3000);
-        return;
-      }
-    }
-  
-    alert("الكلمة مش موجودة ❌");
-  }
-  
-  function removeHighlights() {
-    document.querySelectorAll("mark.highlight").forEach(el => {
-      el.replaceWith(el.textContent);
-    });
-  }
-  </script>
+<body class="b">
 
 
-</body>
-<body id="hm" > 
+    <header>
 
-  <header>
-<div class="leftheader">
-<div class="logo"><img src="http://www2.mans.edu.eg/Dakahlia/sh.gif" alt="logo" height="15%"width="15%" ></div>
- <h1>  مركز شباب المحلاوي</h1>
-</div>
+        <div class="navbar">
+            <img src="file:///C:/Users/Moana/Desktop/learn/New%20folder/kj.png.avif" alt="logo">
+
+        </div>
+
+
+
+        <div class="search">
+
+         
+            <form>
+
+                <input type="text" placeholder="search" name="a">
+                <button type="submit"> <i class="fa-solid fa-magnifying-glass"></i> </button>
+            
+            </form>    
+            
+        
+        </div>
+
+
+                <nav>
+
+
+            
+
+      
+
+            <ul>
+
+
+            <li ><a href="#ss" >  HOME</a></li>
+                <li class="#PROJECTS"><a>PROJECTS</a></li>
+                <li class="#ABOUT"><a>ABOUT</a></li>
+
+
+            </ul>
+
+
+      
+
+              </nav>
+
+            <div class="container">
+                <h1 class="typing">WELCOME TO <span>LIFE'S COMPANY </span> </h1>
+            <p class="typing">make any project that you want</p>
+        <a class="aa" href="#make" style="font-size: 20px;gap: 10px;"> 
+           MAKE 
+        </a>    
+        </div>
+
+
+    
+
+    </header>
+
+    <section>
+<div class="sec1">
  
-<div class="centerheader">
-<center><form onsubmit="event.preventDefault(); searchText();">
-<input type="text" name="search" placeholder="search">
-<button name="search">
-  <!--icon src-->
-
-</button>
-
-</form></center>
-
-</div>
-
-<div class="rightheader">
-<a href="#hm">HOME</a>
-<a href="https://jhgtgt800-cpu.github.io/FFS/" target="_blank">ABOUT</a>
-<a href="https://jhgtgt800-cpu.github.io/FF/" target="_blank">FOUNDERS</a>
-</div>
-
-
-
-
-
-</header>
-
-<hr>
-<br><br>
-
-  <section>
- <div class="c"><h1 dir="rtl"> .. لمحة عن تاريخ المركز .. </h1></div>
-
-<div class="co"><p> 
-
-<p>
-
-   مركز شباب المحلاوي – الجمالية، الدقهلية
-
-  يُعد مركز شباب المحلاوي أحد الكيانات الشبابية المهمة في قرية المحلاوي التابعة لمركز الجمالية بمحافظة الدقهلية. وقد أُنشئ المركز عام 1989 ليكون منبرًا يجمع شباب القرية ويوفر لهم بيئة مناسبة لممارسة الأنشطة الرياضية والثقافية والاجتماعية.
-  
-</p>
-
-
-
-   <h2>النشأة والتأسيس
-  </h2>
-
-
-
-   <p>
-  تأسس المركز في أواخر ثمانينيات القرن الماضي استجابةً لحاجة شباب القرية إلى مكان منظم وآمن يقضون فيه أوقات فراغهم بصورة مفيدة. ومنذ إنشائه عام 1989، لعب دورًا بارزًا في دعم الطاقات الشبابية وتنمية المواهب في مختلف المجالات.
-  </p>
-  <h3> الأنشطة الرياضية
-  </h3>
-<p>
-  يهتم المركز بالأنشطة الرياضية مثل كرة القدم، وكرة الطائرة، وتنس الطاولة، وغيرها من الألعاب التي تشجع على اللياقة البدنية وروح الفريق. ويشارك شباب المركز في بطولات محلية على مستوى المركز والمحافظة، مما يعزز روح المنافسة والانتماء.
-</p>
+    <p class="ss" id="ss">
+        في عصر السرعة والتحول الرقمي، وجودك أونلاين لم يعد اختيارًا… بل ضرورة للنجاح. نحن لا نصمم مجرد مواقع إلكترونية، بل نبني تجارب رقمية احترافية تعكس قوة علامتك التجارية وتمنحك حضورًا يفرض نفسه. نصنع لك موقعًا سريعًا، آمنًا، متجاوبًا مع جميع الأجهزة، ومصممًا ليحوّل الزوار إلى عملاء فعليين. هدفنا أن يكون موقعك أداة بيع وتسويق تعمل لصالحك 24/7 وتضعك في مقدمة المنافسين.
+    </p>   
+        
+       <p class="ss">In today’s fast-paced digital world, your online presence is not an option — it’s a necessity. We don’t just build websites; we create powerful digital experiences that elevate your brand and turn visitors into loyal customers. Our websites are fast, secure, fully responsive, and strategically designed to drive growth and increase your revenue. Your website won’t just look professional — it will work as a 24/7 sales engine for your business.
+    </p>
    
-<h4>الأنشطة الثقافية والاجتماعية
-</h4>
-
-<p>
-  لا يقتصر دور مركز الشباب على الرياضة فقط، بل ينظم أيضًا ندوات ثقافية، ومسابقات دينية، وأنشطة ترفيهية في المناسبات المختلفة. كما يساهم في تنظيم احتفالات وطنية ودينية، ويعمل على تعزيز قيم التعاون والعمل التطوعي بين أبناء القرية.
- 
-</p>
-  <h5> دوره في خدمة المجتمع
-  </h5>
-  <p>
-  يُعد المركز نقطة تجمع رئيسية لأهالي المحلاوية، حيث يشارك في المبادرات المجتمعية وحملات التوعية، ويسهم في تنمية روح المشاركة بين الشباب. كما يساعد في اكتشاف المواهب الشابة وصقلها، سواء في المجال الرياضي أو الثقافي.
-</p>
-  <h6>
-الخلاصة
-  </h6>
-<div class="aa">
-  <p >
-  منذ تأسيسه عام 1989، يواصل مركز شباب المحلاوية أداء رسالته في رعاية الشباب وتنمية قدراتهم، ليظل منارة اجتماعية ورياضية مهمة داخل القرية، ومكانًا يعكس روح الانتماء والعمل الجماعي بين أبنائها.
-  
-  </p>
-</div>
-
-</p>
-
-<br>
-<hr>
-
-
 
 </div>
-</section>
-
-<footer>
-
-  <div class= "foot">
-<p>
-  رقم الهاتف  : 01207090931
-</p>
-
-<p class="k13">
-
-جميع الحقوق تابعة لوزارة الشباب والرياضة 
-
-</p>
-<div class="leftfoot">
-<p>
-
-تابعنا علي فيسبوك
-<a class="lfa" href="https://www.facebook.com/people/%D8%A7%D9%84%D8%B5%D9%81%D8%AD%D8%A9-%D8%A7%D9%84%D8%B1%D8%B3%D9%85%D9%8A%D8%A9-%D9%84%D9%85%D8%B1%D9%83%D8%B2-%D8%B4%D8%A8%D8%A7%D8%A8-%D8%A7%D9%84%D9%85%D8%AD%D9%84%D8%A7%D9%88%D9%8A-%D8%A5%D8%AF%D8%A7%D8%B1%D8%A9-%D8%B4%D8%A8%D8%A7%D8%A8-%D8%A7%D9%84%D8%AC%D9%85%D8%A7%D9%84%D9%8A%D8%A9/100064584316338/"> facebook</a>
-<i href=""></i>
+<div class="home" id="HOME">
+  <img src="file:///C:/Users/Moana/Desktop/learn/%E2%80%94Pngtree%E2%80%94a%20vibrant%20environment%20computer%20perform_17241428.jpeg" alt="learn">
 </div>
 
-</p>
+<div class="sec2">
+<p><pre class="as">لماذا يثق عملاؤنا بنا؟
 
-  </div>
+ نحن لا نقدم مجرد خدمة… بل نقدم التزامًا حقيقيًا بالجودة، وحرصًا دائمًا على تحقيق أفضل النتائج لعملائنا.
+ نؤمن أن الثقة تُبنى بالفعل قبل الكلام، لذلك نعمل بشفافية، ووضوح، واحترافية في كل خطوة.
+ نضع أهداف عملائنا في مقدمة أولوياتنا، ونحرص على فهم احتياجاتهم بدقة، لنقدم حلولًا مبتكرة تناسب طموحاتهم وتفوق توقعاتهم.
+ نلتزم بالمواعيد، ونهتم بأدق التفاصيل، لأننا نعلم أن النجاح الحقيقي يكمن في التفاصيل الصغيرة.
+ خبرتنا، مصداقيتنا، وسجل أعمالنا المشرف هم أساس علاقتنا طويلة الأمد مع عملائنا.
+ ومع كل مشروع جديد، نعتبره فرصة لإثبات جدارتنا من جديد
+ شركتنا ليست مجرد اختيار… بل شريك نجاح يمكنك الاعتماد عليه</pre></p>
+</div>
+
+<div class="ph">
+<img src="file:///C:/Users/Moana/Downloads/%E2%80%94Pngtree%E2%80%94business%20handshake%20between%20two%20people_20820585.png" >
+</div>
 
 
+<div class="sec3"> <pre> كيفية إنشاء موقع معنا
 
-</footer>
+    إنشاء موقعك معنا عملية بسيطة وسلسة تبدأ بخطوة تواصل.
+    يمكنك التواصل معنا مباشرة عبر رقم الهاتف أو من خلال البريد الإلكتروني لعرض فكرتك ومتطلبات مشروعك.
+    بعد ذلك نقوم بـ:
+    مناقشة تفاصيل الموقع وأهدافه
+    تحديد التصميم المناسب لهويتك
+    الاتفاق على المميزات والوظائف المطلوبة
+    تحديد المدة الزمنية والتكلفة بشكل واضح
+    نحرص على إبقائك على اطلاع بكل مرحلة من مراحل التنفيذ، مع إمكانية التعديل حتى نصل للشكل المثالي الذي يعبر عنك ويحقق أهدافك.
+    بمجرد الانتهاء، نقوم بتسليم الموقع جاهزًا للنشر، مع دعم فني مستمر لضمان أفضل أداء.
+    ابدأ الآن — تواصل معنا عبر الهاتف أو البريد الإلكتروني، ودعنا نحول فكرتك إلى موقع احترافي يعكس نجاحك.</pre></div>
 
+<div class="ph2"><img src="file:///C:/Users/Moana/Downloads/%E2%80%94Pngtree%E2%80%94website%20under%20construction%20concept_8964018.png"></div>
+<div class="nav3">
+    <a href="" >تواصل</a>
+</div>
+   
+    </section>
 
 
 
 </body>
+
 </html>
