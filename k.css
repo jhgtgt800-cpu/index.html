@@ -92,7 +92,7 @@ button:hover{
 
 /*header background*/
 header{
-background-image: url(file:///C:/Users/Moana/Desktop/learn/kh1.jpg) ;
+background-image: url(kh1.jpg) ;
 background-size: cover;
 background-repeat: no-repeat ;
 height: 100vh;
@@ -264,13 +264,18 @@ color: rgb(156, 149, 134);
    margin-top: 10px;
 
 }
-.nav3 {
-    position:absolute;
-    bottom: 50px; /* بيطلعه لفوق */
-color: yellow;
-left:800px
-}
-section{
-
+.parent{
     position: relative;
+}
+.nav3{
+
+position: absolute;
+bottom: 302px;
+left: 368px;
+color: rgb(255, 255, 255);
+}
+
+.nav3 a{
+  border: rgb(65, 109, 65);
+    color: rgb(255, 255, 255);
 }
