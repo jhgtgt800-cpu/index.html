@@ -5,8 +5,8 @@ display: flex;
 
 direction: rtl;
 font-size: 40px;
-color:#1D3557
-
+color:#1D3557;
+padding:20px
 
 }
 
@@ -39,6 +39,7 @@ color: #344E41;
     background: linear-gradient(135deg, #A8D5BA, #74C69D);
     padding: 25px 40px;
 
+    position: relative;
   }
   
   /* اسم المركز */
@@ -50,7 +51,7 @@ color: #344E41;
     font-weight: bold;
     right:300px ;
     left: 50px;
-    margin-right: 458px;
+    margin-right: 39%;
      margin-top: -40px;
 }
 
@@ -165,3 +166,24 @@ color: #ffffff;
 padding: 20px;
 
  }
+ h1,.h1{
+
+padding: 20px;
+
+ }
+ .h1{
+
+margin: 80px;
+
+ }
+ .h1{
+
+
+ 
+position: absolute;
+top: 40%;
+right: 20px;
+transform: translate(-30%);
+
+}
+
